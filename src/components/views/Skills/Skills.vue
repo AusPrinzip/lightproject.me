@@ -33,21 +33,6 @@
         <div class="frameworks">
             <div class="heading">
                 <font-awesome-icon class="icon" :icon="faPlus"/>
-                Frameworks
-            </div>
-            <ul>
-                <li v-for="framework in frameworks" :key="framework.name">
-                    <div class="skill-name">{{ framework.name }}</div>
-                    <div>
-                        <LevelProgress :value="framework.level"></LevelProgress>
-                        <div class="level">{{ framework.level }}%</div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="frameworks">
-            <div class="heading">
-                <font-awesome-icon class="icon" :icon="faPlus"/>
                 AWS
             </div>
             <ul>
@@ -56,6 +41,21 @@
                     <div>
                         <LevelProgress :value="aws.level"></LevelProgress>
                         <div class="level">{{ aws.level }}%</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="frameworks">
+            <div class="heading">
+                <font-awesome-icon class="icon" :icon="faPlus"/>
+                Frameworks
+            </div>
+            <ul>
+                <li v-for="framework in frameworks" :key="framework.name">
+                    <div class="skill-name">{{ framework.name }}</div>
+                    <div>
+                        <LevelProgress :value="framework.level"></LevelProgress>
+                        <div class="level">{{ framework.level }}%</div>
                     </div>
                 </li>
             </ul>

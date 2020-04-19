@@ -2,14 +2,13 @@
     <div class="welcome-content">
         <div class="me">
             <img src="../../../../static/images/photo.jpeg"/>
-            <span class="my-name">Hey, I am lightproject.</span>
+            <span class="my-name">This is lightproject.</span>
         </div>
         <div class="description">
             <span class="rest-info">
-                I am 32 years old full-stack web developer living in Spain.
-                Currently focusing at learning serverless solutions with AWS.
-                My passion is also blockchain technologies, I have created and published several projects in STEEM/HIVE ecosystem.
-                Currently I work as Full Stack web developer in HIVE.
+                Hello there, I am a 32 years old Full-Stack web developer living in Spain. 
+                Currently focused at learning serverless solutions with AWS, I´m passionated about blockchain technologies with proven professional experience in the STEEM/HIVE ecosystem. 
+                At the moment I work as a Full-Stack web developer in HIVE.
             </span>
         </div>
     </div>
@@ -52,7 +51,7 @@ export default {}
     .description .rest-info {
         font-weight: 100;
         line-height: 1.3;
-        word-spacing: 4px;
+/*        word-spacing: 4px;*/
     }
     @media(max-width: 1024px) {
         .description {
