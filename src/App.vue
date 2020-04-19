@@ -80,6 +80,7 @@
         top: 50%;
         transform: translateY(-50%);
         display: block;
+        z-index:2;
     }
 
     .page-content {
@@ -92,6 +93,7 @@
         transform: translate(-50%, -50%);
         width: auto;
         overflow-y: auto;
+        z-index:1;
     }
 
     .fade-enter-active, .fade-leave-active {

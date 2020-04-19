@@ -8,7 +8,7 @@
             <span class="rest-info">
                 Hello there, I am a 32 years old Full-Stack web developer living in Spain. 
                 Currently focused at learning serverless solutions with AWS, I´m passionated about blockchain technologies with proven professional experience in the STEEM/HIVE ecosystem. 
-                At the moment I work as a Full-Stack web developer in HIVE.
+                At the moment I work as a freelance Full-Stack web developer. Feel free to contact me for non binding quotes.
             </span>
         </div>
     </div>

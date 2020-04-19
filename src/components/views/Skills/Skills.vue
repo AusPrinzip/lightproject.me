@@ -18,21 +18,6 @@
         <div class="frameworks">
             <div class="heading">
                 <font-awesome-icon class="icon" :icon="faPlus"/>
-                Libraries
-            </div>
-            <ul>
-                <li v-for="library in libraries" :key="library.name">
-                    <div class="skill-name">{{ library.name }}</div>
-                    <div>
-                        <LevelProgress :value="library.level"></LevelProgress>
-                        <div class="level">{{ library.level }}%</div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="frameworks">
-            <div class="heading">
-                <font-awesome-icon class="icon" :icon="faPlus"/>
                 AWS
             </div>
             <ul>
@@ -103,10 +88,14 @@
           level: 15
         }
       ],
-      libraries: [
+      frameworks: [
         {
-          name: 'Laravel 5.6+',
-          level: 40
+          name: 'React.js 16+',
+          level: 50
+        },
+        {
+          name: 'Vue.js 3+',
+          level:75
         },
         {
           name: 'UI-Material',
@@ -120,16 +109,6 @@
           name: 'jQuery',
           level: 30
         }
-      ],
-      frameworks: [
-        {
-          name: 'React.js 16+',
-          level: 50
-        },
-        {
-          name: 'Vue.js 3+',
-          level:75
-        },
       ],
       aws: [
         {
