@@ -1,6 +1,6 @@
 <template>
     <div>
-        Content will be here soon..
+        Content will be here soon ..
     </div>
 </template>
 <script>

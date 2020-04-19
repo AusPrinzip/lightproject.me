@@ -209,7 +209,7 @@
     }
 
     .skill-name {
-        font-size: 18px
+        font-size: 15px
     }
 
     @media (max-width: 1024px) {
