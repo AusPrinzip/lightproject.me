@@ -49,13 +49,13 @@
 </template>
 <script>
   import LevelProgress from '../../domains/Common/LevelProgress.vue'
-  import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
+  // import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
   import faPlus from '@fortawesome/fontawesome-free-solid/faPlus'
 
   export default {
     name: 'ListGroup',
     props: ['leftColData', 'rightColData', 'leftColLabel', 'rightColLabel'],
-    components: {FontAwesomeIcon, LevelProgress},
+    components: {LevelProgress},
     computed: {
       faPlus() {
         return faPlus
