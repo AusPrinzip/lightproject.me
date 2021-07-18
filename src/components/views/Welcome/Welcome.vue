@@ -1,102 +1,131 @@
 <template>
-    <div class="welcome-content">
-        <div class="me">
-            <img src="../../../../static/images/photo.jpeg"/>
-            <span class="my-name">This is lightproject.</span>
-        </div>
-        <div class="description">
-            <span class="rest-info">
-                Hello there, I am a 32 years old Full-Stack web developer living in Spain. 
-                Currently focused at learning serverless solutions with AWS, I´m passionate about blockchain technologies with proven professional experience in the STEEM/HIVE ecosystem. 
-                At the moment I work as a freelance Full-Stack web developer. Feel free to contact me for quotes or any inquiry you might have.
-            </span>
-        </div>
+  <div class="welcome-content">
+    <div class="me">
+      <img src="../../../../static/images/photo.jpeg"/>
+      <span class="my-name">This is lightproject.</span>
     </div>
+    <div class="description">
+      <span class="rest-info">
+                Hello there, my name is Daniel and I work as a Full-Stack web developer living in Spain. 
+                My main skills is software architecture, including AWS serverless solutions and decentralised apps. I´m passionate about blockchain technologies with proven professional experience in the STEEM/HIVE ecosystem. Additionally, I am currently expanding my skillset with web3 and solidity smart contracts programming language.
+                At the moment I work as a part-time freelance Full-Stack web developer and I develop also my own project: <a href="https://coinsocialmedia.com">coinsocialmedia.com</a>. Feel free to contact me for quotes or any inquiry you might have. 
+            </span>
+    </div>
+  </div>
 </template>
 <script>
 export default {}
 </script>
 <style scoped>
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
 
-    .me {
-        float: left;
-        line-height: 100px;
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.me {
+    float: left;
+    line-height: 100px;
+}
+
+.me img {
+    width: 100px;
+    height: 100px;
+    border-radius: 51%;
+    border: 3px solid #F1F1F1;
+}
+
+.me .my-name {
+    font-size: 36px;
+    vertical-align: top;
+}
+
+.description {
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    max-width: 550px;
+    text-align: justify;
+}
+
+.description .my-name {
+    display: block;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.description .rest-info {
+    font-weight: 100;
+    line-height: 1.3;
+    /*        word-spacing: 4px;*/
+}
+
+@media(max-width: 1024px) {
+    .description {
+        font-size: 14px;
     }
 
+    .me {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .welcome-content {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 805px) {
+    .welcome-content {
+        width: 80vw;
+        margin-left: -30px;
+    }
+}
+
+@media (max-width: 500px) {
     .me img {
-        width: 100px;
-        height: 100px;
-        border-radius: 51%;
-        border: 3px solid #F1F1F1;
+        display: block;
+        height: 125px;
+        width: 125px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .me .my-name {
-        font-size: 36px;
-        vertical-align: top;
+        font-size: 30px;
+        text-align: left;
+
     }
 
-    .description {
-        display: inline-block;
-        padding: 0 20px 0 20px;
-        max-width: 550px;
-        text-align: justify;
+    .me {
+        line-height: 45px;
     }
+}
 
-    .description .my-name {
-        display: block;
-        font-weight: bold;
-        font-size: 36px;
+@media (max-width: 333px) {
+    .me .my-name {
+        font-size: 26px;
     }
+}
 
-    .description .rest-info {
-        font-weight: 100;
-        line-height: 1.3;
-/*        word-spacing: 4px;*/
-    }
-    @media(max-width: 1024px) {
-        .description {
-            font-size: 14px;
-        }
-        .me {
-            float: none;
-            margin: 0 auto;
-        }
-
-        .welcome-content {
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    }
-    @media (max-width: 805px) {
-        .welcome-content {
-            width: 80vw;
-            margin-left: -30px;
-        }
-    }
-
-    @media (max-width: 500px) {
-        .me img {
-            display: block;
-            height: 125px;
-            width: 125px;
-            position: relative;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        .me .my-name {
-            font-size: 30px;
-            text-align: left;
-
-        }
-        .me {
-            line-height: 45px;
-        }
-    }
-
-    @media (max-width: 333px) {
-        .me .my-name {
-            font-size: 26px;
-        }
-    }
 </style>
