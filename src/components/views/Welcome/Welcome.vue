@@ -2,12 +2,12 @@
   <div class="welcome-content">
     <div class="me">
       <img src="../../../../static/images/photo.jpeg"/>
-      <span class="my-name">This is lightproject.</span>
+      <span class="my-name">lightproject is my alias</span>
     </div>
     <div class="description">
       <span class="rest-info">
-                Hello there, my name is Daniel and I work as a Full-Stack web developer living in Spain. 
-                My main skills is software architecture, including AWS serverless solutions and decentralised apps. I´m passionate about blockchain technologies with proven professional experience in the STEEM/HIVE ecosystem. Additionally, I am currently expanding my skillset with web3 and solidity smart contracts programming language.
+                Hello there, my name is Daniel and I work as a Full-Stack web developer. 
+                My main skill is software architecture, including AWS serverless solutions and decentralised apps. I´m passionate about blockchain technologies with proven professional experience in the STEEM/HIVE ecosystem. Additionally, I am currently expanding my skillset with web3 and solidity smart contracts programming language.
                 At the moment I work as a part-time freelance Full-Stack web developer and I develop also my own project: <a href="https://coinsocialmedia.com">coinsocialmedia.com</a>. Feel free to contact me for quotes or any inquiry you might have. 
             </span>
     </div>

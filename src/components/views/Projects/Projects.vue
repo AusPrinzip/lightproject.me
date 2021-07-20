@@ -7,7 +7,8 @@
       </div>
       <ul>
         <li v-for="project in projects" :key="project.name">
-          <div class="skill-name">{{ project.name }} - <a :href="project.link">{{project.link}}</a></div>
+          <h4><a :href="project.link">{{project.name}}</a></h4>
+          <p>{{project.description}}</p>
         </li>
       </ul>
     </div>
@@ -18,11 +19,13 @@ export default {
     data: () => ({
         projects: [{
                 name: 'coinsocialmedia',
-                link: 'https://coinsocialmedia.com'
+                link: 'https://coinsocialmedia.com',
+                description: 'How is crypto doing on social media? Separate organic interest from bots and paid engagement. Our artificial intelligence will help you see who is talking about your favourite cryptocurrency on YouTube videos, Twitter or Telegram channels'
             },
             {
                 name: 'hivetips',
-                link: 'https://chrome.google.com/webstore/detail/hivetips/pepgdkiflaefcmpogbpjpckbbddbjamc?hl=en'
+                link: 'https://chrome.google.com/webstore/detail/hivetips/pepgdkiflaefcmpogbpjpckbbddbjamc?hl=en',
+                description: 'A chrome extension for tipping on social media platforms with HIVE tokens'
             }
         ]
     })
@@ -53,6 +56,7 @@ a:active {
     text-decoration: underline;
 }
 
+
 .projects,
 .frameworks {
     min-width: 250px;
@@ -75,11 +79,12 @@ ul {
     padding-left: 20px;
 }
 
-ul li {
-    text-transform: uppercase;
-    font-size: 24px;
-    padding: 10px 0 10px 0;
+/*ul li {
+text-transform: uppercase;
+font-size: 24px;
+padding: 10px 0 10px 0;
 }
+*/
 
 .skills {
     displa y: flex;
