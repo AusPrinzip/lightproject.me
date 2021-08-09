@@ -2,7 +2,7 @@
   <div class="welcome-content">
     <div class="me">
       <img src="../../../../static/images/photo.jpeg"/>
-      <span class="my-name">lightproject is my alias</span>
+      <span class="my-name">“There is a way to do it better — find it!”</span>
     </div>
     <div class="description">
       <span class="rest-info">

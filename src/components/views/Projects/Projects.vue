@@ -56,8 +56,13 @@ a:active {
     text-decoration: underline;
 }
 
+.projects {
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    max-width: 550px;
+    text-align: justify;
+}
 
-.projects,
 .frameworks {
     min-width: 250px;
 }
