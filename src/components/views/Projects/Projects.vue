@@ -1,35 +1,46 @@
 <template>
-  <div class="skills">
-    <div class="projects">
-      <div class="heading">
-        <font-awesome-icon class="icon" :icon="faPlus" />
-        Projects
-      </div>
-      <ul>
-        <li v-for="project in projects" :key="project.name">
-          <h4><a :href="project.link">{{project.name}}</a></h4>
-          <p>{{project.description}}</p>
-        </li>
-      </ul>
+    <div class="skills">
+        <div class="projects">
+            <div class="heading">
+                <font-awesome-icon class="icon" :icon="faPlus" />
+                Projects
+            </div>
+            <ul>
+                <li v-for="project in projects" :key="project.name">
+                    <h4>
+                        <a :href="project.link">{{ project.name }}</a>
+                    </h4>
+                    <p>{{ project.description }}</p>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
 </template>
 <script>
 export default {
     data: () => ({
-        projects: [{
-                name: 'coinsocialmedia',
-                link: 'https://coinsocialmedia.com',
-                description: 'How is crypto doing on social media? Separate organic interest from bots and paid engagement. Our artificial intelligence will help you see who is talking about your favourite cryptocurrency on YouTube videos, Twitter or Telegram channels'
+        projects: [
+            {
+                name: "risitasApp",
+                link: "https://splinter.monster",
+                description:
+                    "Improve your Splinterlands NFT gaming winrate with risitas advanced User Interface",
             },
             {
-                name: 'hivetips',
-                link: 'https://chrome.google.com/webstore/detail/hivetips/pepgdkiflaefcmpogbpjpckbbddbjamc?hl=en',
-                description: 'A chrome extension for tipping on social media platforms with HIVE tokens'
-            }
-        ]
-    })
-}
+                name: "coinsocialmedia",
+                link: "https://coinsocialmedia.com",
+                description:
+                    "How is crypto doing on social media? Separate organic interest from bots and paid engagement. Our artificial intelligence will help you see who is talking about your favourite cryptocurrency on YouTube videos, Twitter or Telegram channels",
+            },
+            {
+                name: "hivetips",
+                link: "https://chrome.google.com/webstore/detail/hivetips/pepgdkiflaefcmpogbpjpckbbddbjamc?hl=en",
+                description:
+                    "A chrome extension for tipping on social media platforms with HIVE tokens",
+            },
+        ],
+    }),
+};
 </script>
 <style scoped>
 a:link {
@@ -127,5 +138,4 @@ padding: 10px 0 10px 0;
         margin-left: -30px;
     }
 }
-
 </style>
