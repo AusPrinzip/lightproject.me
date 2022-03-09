@@ -27,6 +27,11 @@ export default {
                     "Improve your Splinterlands NFT gaming winrate with risitas advanced User Interface",
             },
             {
+                name: "coindenser",
+                link: "https://coindenser.com",
+                description: "Crypto news blog",
+            },
+            {
                 name: "coinsocialmedia",
                 link: "https://coinsocialmedia.com",
                 description:
