@@ -1,20 +1,29 @@
 <template>
-  <div class="welcome-content">
-    <div class="me">
-      <img src="../../../../static/images/photo.jpeg"/>
-      <span class="my-name">“There is a way to do it better — find it!”</span>
-    </div>
-    <div class="description">
-      <span class="rest-info">
-                Hello there, my name is Daniel and I work as a Full-Stack web developer. 
-                My main skill is software architecture, including AWS serverless solutions and decentralised apps. I´m passionate about blockchain technologies with proven professional experience in the STEEM/HIVE ecosystem. Additionally, I am currently expanding my skillset with web3 and solidity smart contracts programming language.
-                At the moment I work as a part-time freelance Full-Stack web developer and I develop also my own project: <a href="https://coinsocialmedia.com">coinsocialmedia.com</a>. Feel free to contact me for quotes or any inquiry you might have. 
+    <div class="welcome-content">
+        <div class="me">
+            <img src="../../../../static/images/photo.jpeg" />
+            <span class="my-name">“Quality over Quantity”</span>
+        </div>
+        <div class="description">
+            <span class="rest-info">
+                Hello there, my name is Daniel and I work as a Full-Stack web
+                developer. My main skill is software architecture, including AWS
+                serverless solutions and decentralised apps. I´m passionate
+                about blockchain technologies with proven professional
+                experience in the STEEM/HIVE ecosystem. Additionally, I am
+                currently expanding my skillset with web3 and solidity smart
+                contracts programming language. At the moment I work as a
+                part-time freelance Full-Stack web developer and currently
+                developing my own alternative UI for the NFT Game
+                "Splinterlands"
+                <a href="https://splinter.monster">risitasApp</a>. Feel free to
+                contact me for quotes or any inquiry you might have.
             </span>
+        </div>
     </div>
-  </div>
 </template>
 <script>
-export default {}
+export default {};
 </script>
 <style scoped>
 a:link {
@@ -50,7 +59,7 @@ a:active {
     width: 100px;
     height: 100px;
     border-radius: 51%;
-    border: 3px solid #F1F1F1;
+    border: 3px solid #f1f1f1;
 }
 
 .me .my-name {
@@ -77,7 +86,7 @@ a:active {
     /*        word-spacing: 4px;*/
 }
 
-@media(max-width: 1024px) {
+@media (max-width: 1024px) {
     .description {
         font-size: 14px;
     }
@@ -114,7 +123,6 @@ a:active {
     .me .my-name {
         font-size: 30px;
         text-align: left;
-
     }
 
     .me {
@@ -127,5 +135,4 @@ a:active {
         font-size: 26px;
     }
 }
-
 </style>
