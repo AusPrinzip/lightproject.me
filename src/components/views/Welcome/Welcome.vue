@@ -1,7 +1,7 @@
 <template>
     <div class="welcome-content">
         <div class="me">
-            <img src="../../../../static/images/photo.jpeg" />
+            <img src="@/assets/images/photo.jpeg" />
             <span class="my-name">“Quality over Quantity”</span>
         </div>
         <div class="description">

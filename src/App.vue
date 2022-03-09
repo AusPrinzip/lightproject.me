@@ -1,39 +1,39 @@
 <template>
-  <div id="app">
-    <transition v-if="showMenus" name="fade" appear>
-      <Navbar></Navbar>
-    </transition>
-    <transition v-if="showMenus" name="fade" appear>
-      <Sidebar></Sidebar>
-    </transition>
-    <transition name="fade" appear>
-      <router-view class="page-content"></router-view>
-    </transition>
-    <Footer></Footer>
-  </div>
+    <div id="app">
+        <transition v-if="showMenus" name="fade" appear>
+            <Navbar></Navbar>
+        </transition>
+        <transition v-if="showMenus" name="fade" appear>
+            <Sidebar></Sidebar>
+        </transition>
+        <transition name="fade" appear>
+            <router-view class="page-content"></router-view>
+        </transition>
+        <Footer></Footer>
+    </div>
 </template>
 
 <script>
-import Welcome from './components/views/Welcome/Welcome.vue'
-import Navbar from './components/domains/Navigation/Navbar.vue'
-import Footer from './components/domains/Footer/Footer.vue'
-import Sidebar from './components/domains/Sidebar/Sidebar.vue'
+import Welcome from "./components/views/Welcome/Welcome.vue";
+import Navbar from "./components/domains/Navigation/Navbar.vue";
+import Footer from "./components/domains/Footer/Footer.vue";
+import Sidebar from "./components/domains/Sidebar/Sidebar.vue";
 
 export default {
-    name: 'app',
+    name: "app",
     components: {
         Welcome,
         Navbar,
         Footer,
-        Sidebar
+        Sidebar,
     },
     data: () => ({
-        showMenus: false
+        showMenus: false,
     }),
     mounted() {
-        setTimeout(() => (this.showMenus = true), 2000)
-    }
-}
+        setTimeout(() => (this.showMenus = true), 2000);
+    },
+};
 </script>
 
 <style>
@@ -50,14 +50,14 @@ export default {
     display: block;
     width: 100%;
     height: 100%;
-    background: url('../static/images/snow.jpg') center no-repeat;
+    background: url("assets/images/snow.jpg") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     filter: grayscale(55%);
 }
 
 #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -98,18 +98,17 @@ export default {
 
 .fade-enter-active,
 .fade-leave-active {
-    transition: opacity .7s;
+    transition: opacity 0.7s;
 }
 
 .fade-enter,
 .fade-leave-to
 
-/* .fade-leave-active below version 2.1.8 */
-    {
+/* .fade-leave-active below version 2.1.8 */ {
     opacity: 0;
 }
 
-@media(max-width: 1024px) {
+@media (max-width: 1024px) {
     .sidebar {
         right: 0;
     }
@@ -124,7 +123,5 @@ export default {
         margin-right: 0;
         float: none;
     }
-
 }
-
 </style>
