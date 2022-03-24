@@ -20,6 +20,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/vue-fontawesome": "^2.0.2",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
