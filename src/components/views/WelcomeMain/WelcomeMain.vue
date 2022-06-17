@@ -1,7 +1,7 @@
 <template>
     <div class="welcome-content">
         <div class="me">
-            <img src="@/assets/images/photo.jpg" />
+            <img src="@/assets/images/photo3.jpg" />
         </div>
         <div class="description">
             <span class="rest-info">
