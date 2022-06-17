@@ -55,19 +55,19 @@ export default {
 </script>
 <style scoped>
 a:link {
-    color: green;
+    color: var(--tangerine);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: pink;
+    color: var(--tangerine-light);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: red;
+    color: var(--tangerine-dark);
     background-color: transparent;
     text-decoration: underline;
 }

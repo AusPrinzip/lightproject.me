@@ -39,7 +39,7 @@ a:link {
 }
 
 a:visited {
-    color: pink;
+    color: var(--tangerine-light);
     background-color: transparent;
     text-decoration: none;
 }
@@ -63,9 +63,10 @@ a:active {
 }
 
 .me img {
-    width: 200px;
+    width: 150px;
     border-radius: 51%;
     border: 3px solid #f1f1f1;
+    /*border-color: var(--tangerine);*/
     margin:  25px;
 }
 

@@ -39,6 +39,8 @@ export default {
 <style>
 :root {
   --tangerine: #F28500;
+  --tangerine-dark: #AD5F00;
+  --tangerine-light: #f59d33;
 }
 * {
     margin: 0;
