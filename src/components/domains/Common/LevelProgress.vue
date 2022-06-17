@@ -18,12 +18,12 @@
         width: 60%;
         padding: 0;
         border: 0 none;
-        background: #851d1d;
+        background: #AD5F00;
     }
 
     .level-progress > div {
         border-radius: 8px;
-        background: #ea3030;
+        background: #F28500;
         height: 15px;
     }
 

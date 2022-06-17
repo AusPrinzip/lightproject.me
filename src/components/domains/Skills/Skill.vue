@@ -40,7 +40,7 @@
         width: 100%;
         min-height: 100px;
         display: inline-block;
-        border: 2px solid #C62828;
+        border: 2px solid var(--tangerine);
         border-radius: 10px;
         text-align: left;
         padding: 10px;

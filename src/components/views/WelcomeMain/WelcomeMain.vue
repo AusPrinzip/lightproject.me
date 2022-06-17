@@ -2,22 +2,10 @@
     <div class="welcome-content">
         <div class="me">
             <img src="@/assets/images/photo.jpg" />
-            <span class="my-name">“Quality over Quantity”</span>
         </div>
         <div class="description">
             <span class="rest-info">
-                Hello there, my name is Daniel and I work as a Full-Stack web
-                developer. My main skill is software architecture, including AWS
-                serverless solutions and decentralised apps. I´m passionate
-                about blockchain technologies with proven professional
-                experience in the STEEM/HIVE ecosystem. Additionally, I am
-                currently expanding my skillset with web3 and solidity smart
-                contracts programming language. At the moment I work as a
-                part-time freelance Full-Stack web developer and currently
-                developing my own alternative UI for the NFT Game
-                "Splinterlands"
-                <a href="https://splinter.monster">risitasApp</a>. Feel free to
-                contact me for quotes or any inquiry you might have.
+                Self-driven full-stack developer with extensive professional experience in backend development and AWS cloud solutions. My main focus is in the crypto industry. I'm an extremely curious person who is always learning new things.
             </span>
         </div>
     </div>
@@ -69,13 +57,13 @@ a:active {
 }
 
 .me {
-    float: left;
-    line-height: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .me img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
     border-radius: 51%;
     border: 3px solid #f1f1f1;
     margin:  25px;
@@ -83,9 +71,8 @@ a:active {
 
 
 .description {
+    font-size: 24px;
     display: inline-block;
-    padding: 0 20px 0 20px;
-    max-width: 550px;
     text-align: justify;
 }
 

@@ -37,6 +37,9 @@ export default {
 </script>
 
 <style>
+:root {
+  --tangerine: #F28500;
+}
 * {
     margin: 0;
 }

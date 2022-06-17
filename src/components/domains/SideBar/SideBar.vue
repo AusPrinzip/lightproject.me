@@ -40,7 +40,7 @@
     }
 
     ul li svg:hover {
-        color: #C62828;
+        color: var(--tangerine);
         transition-duration: 0.3s;
     }
 

@@ -48,7 +48,7 @@
     </div>
 </template>
 <script>
-import LevelProgress from "../../domains/Common/LevelProgress.vue";
+import LevelProgress from "@/components/domains/Common/LevelProgress.vue";
 // import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
@@ -128,7 +128,7 @@ export default {
 }
 
 .heading {
-    color: #c62828;
+    color: var(--tangerine);
     font-weight: bold;
     font-size: 28px;
 }

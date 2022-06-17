@@ -90,7 +90,7 @@ a:active {
 }
 
 .heading {
-    color: #C62828;
+    color: var(--tangerine);
     font-weight: bold;
     font-size: 28px;
 }

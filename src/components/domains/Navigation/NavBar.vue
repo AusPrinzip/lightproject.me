@@ -41,12 +41,12 @@ export default {}
     }
 
     li a:hover {
-        color: #C62828 !important;
+        color: #F28500 !important;
         transition-duration: 0.3s
     }
 
     li .router-link-active {
-        border-bottom: 3px solid #f44336;
-        color: #f44336 !important;
+        border-bottom: 3px solid #F28500;
+        color: #F28500 !important;
     }
 </style>
