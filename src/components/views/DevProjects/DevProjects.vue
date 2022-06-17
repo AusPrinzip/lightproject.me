@@ -93,6 +93,7 @@ a:active {
     color: var(--tangerine);
     font-weight: bold;
     font-size: 28px;
+    padding-bottom: 12px;
 }
 
 .heading .icon {

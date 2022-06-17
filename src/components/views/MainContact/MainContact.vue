@@ -13,6 +13,7 @@ a:visited,
 a:active,
 a:link {
     color: #b6b6b6;
+    text-decoration: none;
 }
 
 div {

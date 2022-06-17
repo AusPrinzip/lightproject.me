@@ -54,7 +54,7 @@
     .heading {
         font-size: 24px;
         font-weight: bold;
-        padding-bottom: 5px;
+        padding-bottom: 12px;
     }
 
     .infos {

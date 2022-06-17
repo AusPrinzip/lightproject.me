@@ -6,8 +6,13 @@
         <div class="description">
             <span class="rest-info">
                 Self-driven full-stack developer with extensive professional experience in backend development and AWS cloud solutions. My main focus is in the crypto industry. I'm an extremely curious person who is always learning new things.
+                <br><br>
+                For interview requests, please, <a class="recruiters-link" href="https://9qv37zmmbvd.typeform.com/to/jXonDQwJ"><b>fill in this form</b></a>.
             </span>
         </div>
+<!--         <div class="recruiters">
+            For interview requests, please, fill in this <a href="https://9qv37zmmbvd.typeform.com/to/jXonDQwJ">form</a>.
+        </div> -->
     </div>
 </template>
 <script>
@@ -33,7 +38,7 @@ export default {};
 
 
 a:link {
-    color: green;
+    color: var(--tangerine);
     background-color: transparent;
     text-decoration: none;
 }
@@ -67,7 +72,7 @@ a:active {
     border-radius: 51%;
     border: 3px solid #f1f1f1;
     /*border-color: var(--tangerine);*/
-    margin:  25px;
+    margin:  7%;
 }
 
 
@@ -86,7 +91,7 @@ a:active {
 .description .rest-info {
     font-weight: 100;
     line-height: 1.3;
-    /*        word-spacing: 4px;*/
+    /*word-spacing: 4px;*/
 }
 
 @media (max-width: 1024px) {
