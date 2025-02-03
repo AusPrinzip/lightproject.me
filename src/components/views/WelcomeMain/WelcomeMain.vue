@@ -7,7 +7,7 @@
             <span class="rest-info">
                 Self-driven full-stack developer with extensive professional experience in backend development and AWS cloud solutions. My main focus is in the crypto industry. I'm an extremely curious person who is always learning new things.
                 <br><br>
-                For interview requests, please, <a class="recruiters-link" href="https://9qv37zmmbvd.typeform.com/to/jXonDQwJ"><b>fill in this form</b></a>.
+                For interview requests, please, <a class="recruiters-link" href="https://form.typeform.com/to/AdJOrOhZ" target="_blank"><b>fill in this form</b></a>.
             </span>
         </div>
 <!--         <div class="recruiters">
@@ -124,8 +124,7 @@ a:active {
         height: 125px;
         width: 125px;
         position: relative;
-        left: 50%;
-        transform: translateX(-50%);
+
     }
 
     .me .my-name {

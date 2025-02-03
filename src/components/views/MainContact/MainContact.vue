@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="https://t.me/lightproject1">Find me on Telegram<font-awesome-icon class="fa-sm" :icon="['fab', 'telegram']"/></a>
+    <a target="_blank" href="https://t.me/lightproject1">Find me on Telegram<font-awesome-icon class="fa-sm" :icon="['fab', 'telegram']"/></a>
   </div>
 </template>
 <script>

@@ -71,11 +71,11 @@ export default {
             },
             {
                 name: "TypeScript",
-                level: 60,
+                level: 80,
             },
             {
                 name: "Solidity",
-                level: 50,
+                level: 80,
             },
             {
                 name: "Python",
@@ -88,12 +88,16 @@ export default {
         ],
         frameworks: [
             {
-                name: "Vue.js 3+",
-                level: 75,
+                name: "React.js 16+",
+                level: 90,
             },
             {
-                name: "React.js 16+",
-                level: 50,
+                name: "Vue.js 3+",
+                level: 80,
+            },
+            {
+                name: "Pixi.js",
+                level: 80,
             },
             {
                 name: "expressJS",
@@ -102,8 +106,16 @@ export default {
         ],
         libraries: [
             {
+                name: "ethers",
+                level: 90,
+            },
+            {
+                name: "hardhat",
+                level: 90,
+            },
+            {
                 name: "web3",
-                level: 65,
+                level: 80,
             },
             {
                 name: "jQuery",
@@ -115,7 +127,7 @@ export default {
             },
             {
                 name: "UI-Material",
-                level: 50,
+                level: 70,
             },
         ],
     }),

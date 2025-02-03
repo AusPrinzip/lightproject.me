@@ -8,7 +8,7 @@
             <ul>
                 <li v-for="project in projects" :key="project.name">
                     <h4>
-                        <a :href="project.link">{{ project.name }}</a>
+                        <a target="_blank" :href="project.link">{{ project.name }}</a>
                     </h4>
                     <p>{{ project.description }}</p>
                 </li>
@@ -21,6 +21,12 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 export default {
     data: () => ({
         projects: [
+            {
+                name: "Lords Forsaken",
+                link: "https://lordsforsaken.com",
+                description:
+                    "Lords Forsaken is a Play-to-Earn (P2E) crypto game where players battle, trade, and earn rewards through blockchain-based assets. With a unique combination of strategy, RPG elements, and NFT integration, it offers an immersive gaming experience where players truly own their in-game assets.",
+            },
             {
                 name: "risitasApp",
                 link: "https://splinter.monster",
